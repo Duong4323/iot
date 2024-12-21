@@ -1,0 +1,22 @@
+.room-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .room-control.light-on {
+    background-color: #f7f9fc;
+  }
+  
+  .room-control.light-off {
+    background-color: #f0f0f0;
+  }
+  
+  .room-list {
+    margin-top: 32px;
+  }
+  

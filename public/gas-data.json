@@ -1,0 +1,10 @@
+[
+    { "day": "Monday", "gasLevel": 12000 },
+    { "day": "Tuesday", "gasLevel": 18000 },
+    { "day": "Wednesday", "gasLevel": 25000 },
+    { "day": "Thursday", "gasLevel": 30000 },
+    { "day": "Friday", "gasLevel": 35000 },
+    { "day": "Saturday", "gasLevel": 40000 },
+    { "day": "Sunday", "gasLevel": 22000 }
+  ]
+  

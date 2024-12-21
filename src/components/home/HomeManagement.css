@@ -1,0 +1,42 @@
+/* HomeManagement.css */
+
+.home-details {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  
+  input {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  /* Style for the form sections and visibility toggles */
+  button {
+    cursor: pointer;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #4d90fe;
+    outline: none;
+  }
+  

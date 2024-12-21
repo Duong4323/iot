@@ -1,0 +1,69 @@
+/* Header container styles */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Top section for temperature and humidity */
+.header-top {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Khoảng cách giữa các biểu tượng */
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Khoảng cách giữa biểu tượng và văn bản */
+}
+
+.icon1 {
+  color: orange; /* Màu của biểu tượng mặt trời */
+}
+
+.icon2 {
+  color: blue; /* Màu của biểu tượng giọt nước */
+}
+
+/* Existing styles for the header and other elements */
+
+.nav-list li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-list li a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Style for buttons (matching logout-button) */
+.nav-list li a.nav-button, 
+.nav-list li .logout-button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.nav-list li a.nav-button:hover, 
+.nav-list li .logout-button:hover {
+  background-color: #ff5c4a;
+}

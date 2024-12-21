@@ -1,0 +1,37 @@
+.image-manager {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .upload-section {
+    margin-bottom: 20px;
+  }
+  
+  .upload-section input[type="file"] {
+    margin-right: 10px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .success-message {
+    color: green;
+  }
+  
+  .image-list img {
+    max-width: 100px;
+    margin: 5px;
+  }
+  
+  .image-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .image-list li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
